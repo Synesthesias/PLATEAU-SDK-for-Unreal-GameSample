@@ -1,4 +1,6 @@
 # PLATEAU-SDK-for-Unreal-GameSample
+![image](https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample/assets/96822472/98b03623-1861-43d8-ab45-3c286eb01eca)
+
 このリポジトリでは、[PLATEAU SDK for Unreal](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unreal)を利用すると実際にどのようなアプリケーションが作れるかについて知るためのサンプルプロジェクトを公開しています。
 
 [PLATEAU SDK for Unity](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unity)向けサンプルプロジェクトは[こちら](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unity-Samples)です。
