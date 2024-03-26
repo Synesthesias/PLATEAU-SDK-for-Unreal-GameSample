@@ -17,7 +17,7 @@ SDKの導入方法、機能の説明、サンプルプロジェクトの内容�
 
 
 ## ゲームサンプルアプリのみをインストール
-ゲームサンプルアプリのみを使用したい場合は、[Releaseページ](https://github.com/Synesthesias/PLATEAU-SDK-for-Unity-GameSample/releases/tag/v1.0.0)からダウンロードして、zipファイルを展開してください。
+ゲームサンプルアプリのみを使用したい場合は、[Releaseページ](https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample/releases)からダウンロードして、zipファイルを展開してください。
 
 ## gitからの導入
 git lfs の導入が必要であることに注意してください。
