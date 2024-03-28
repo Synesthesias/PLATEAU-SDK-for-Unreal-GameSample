@@ -1,5 +1,6 @@
-SoundEffectとして使っている音源は、[OtoLogic](https://otologic.jp/)のサイバー03、サイバー18、サイバー19、グロッケン２、アクセント43、オノマトペ　ネガティブ14、電撃02、電撃05を使用しており、[CCライセンス（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/legalcode.ja)に従います。
+キャラクターであるunity chanに関するアセットは[ユニティちゃんライセンス条項](https://unity-chan.com/contents/license_jp/)に従います。SoundEffectとして使っている音源は、[OtoLogic](https://otologic.jp/)のサイバー03、サイバー18、サイバー19、グロッケン２、アクセント43、オノマトペ　ネガティブ14、電撃02、電撃05を使用しており、[CCライセンス（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/legalcode.ja)に従います。
 上記以外の部分はMITライセンスとします。
+
 
 MIT License
 
