@@ -21,7 +21,7 @@
 Unityでプロジェクトを開きたい場合は下記の「プロジェクトを導入したい場合」をご覧ください。
 
 ## ビルドアプリを入手する場合
-Windows向けのビルドアプリが[Releaseページ](https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample/tags)にあります。zipファイルをダウンロードして展開してアプリを起動します。
+Windows向けのビルドアプリが[Releaseページ](https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample/releases/tag/release)にあります。zipファイルをダウンロードして展開してアプリを起動します。
 
 ## プロジェクトを導入する場合
 
