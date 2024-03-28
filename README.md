@@ -30,8 +30,10 @@ UnrealEngine　3.5.2～
 
 ### 導入方法
 - 次のコマンドでgit lfsを導入してからリポジトリをクローンします。
-git lfs install
-git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample.git
+
+```
+git lfs install git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample.git
+```
 
 - Unityでプロジェクトを開きます。
 この際、Unity起動時に「Enter Safe Mode?」というダイアログが出る場合は「Ignore」を押します。
