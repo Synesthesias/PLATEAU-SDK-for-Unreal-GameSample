@@ -36,14 +36,7 @@ git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample.git
 - Unityでプロジェクトを開きます。
 この際、Unity起動時に「Enter Safe Mode?」というダイアログが出る場合は「Ignore」を押します。
 
-- 別途Starter Assets - ThirdPersonを導入する必要があります。次の方法で導入します。
-  - Unity Asset StoreからStarter Assets - ThirdPersonを開き、`Add to My Assets`ボタンを押します。
-  - この際、Unityアカウントへのログインが必要となります。
-  - Unityエディタのメニューバーから Window → Package Manager をクリックします。
-  - Package Managerウィンドウ左上のドロップダウンメニューから'My Assets'を選択し、`Starter Assets - Third Person Character Controller`をクリックして`Install`または`Download`ボタンを押します。
-  - ボタンがImportに変化するのでそれをクリックし、表示される`Import Unity Package`ウィンドウの`Import`ボタンを押します
-
-シーンファイル `Assets/Scenes/GameSample.unity`を開いてPlayすることで実行できます。
+シーンファイル `Content/PlateauGameSample/MainMap.umap`を開いてPlayすることで実行できます。
 
 ## ライセンス
 ライセンスは[LICENSE.md](/LICENSE.md)を参照してください。
