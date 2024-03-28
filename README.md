@@ -35,8 +35,6 @@ UnrealEngine　3.5.2～
 git lfs install git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample.git
 ```
 
-- Unityでプロジェクトを開きます。
-この際、Unity起動時に「Enter Safe Mode?」というダイアログが出る場合は「Ignore」を押します。
 
 シーンファイル `Content/PlateauGameSample/MainMap.umap`を開いてPlayすることで実行できます。
 
