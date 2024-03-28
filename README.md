@@ -1,42 +1,44 @@
 # 概要
-[PLATEAU SDK for Unity](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unity)のサンプルとして提供しているゲームアプリです。
+[PLATEAU SDK for Unreal](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unreal)のサンプルとして提供しているゲームアプリです。
 
 ## ゲームルール
-制限時間内にロボットに襲われている要救助者を救出するゲームです。
-敵を避けながら要救助者と接触し、なるべく多くの人数をゴールに連れて行き救助することを目指します。
-ゴールの場所は紙飛行機を取得すると明らかになります。
-敵は街を歩き回りますが、プレイヤーを見つけると襲ってきます。敵に触れるとゲームオーバーです。
-要救助者も街を歩き回りますが、プレイヤーと接触すると同行者として付いてくるようになります。
-同行者がいる状態でゴールとなる建物に接触すると救助となります。
+- 制限時間内にロボットに襲われている要救助者を救出するゲームです。
+- 敵を避けながら要救助者と接触し、なるべく多くの人数をゴールに連れて行き救助することを目指します。
+- ゴールの場所は紙飛行機を取得すると明らかになります。
+- 敵は街を歩き回りますが、プレイヤーを見つけると襲ってきます。敵に触れるとゲームオーバーです。
+- 要救助者も街を歩き回りますが、プレイヤーと接触すると同行者として付いてくるようになります。
+- 同行者がいる状態でゴールとなる建物に接触すると救助となります。
 
 操作方法はタイトルメニューの「遊び方」から閲覧できます。
 
-#導入方法
+# 導入方法
 サンプルゲームを遊んでみたい場合は下記の「ビルドアプリを入手したい場合」をご覧ください。
 Unityでプロジェクトを開きたい場合は下記の「プロジェクトを導入したい場合」をご覧ください。
 
-##ビルドアプリを入手する場合
+## ビルドアプリを入手する場合
 Windows向けのビルドアプリが[Releaseページ]()にあります。zipファイルをダウンロードして展開してアプリを起動します。
 
-##プロジェクトを導入する場合
-###動作環境
-UnrealEngine　3.5.2～
-###導入方法
-次のコマンドでgit lfsを導入してからリポジトリをクローンします。
-git lfs install
-git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unity-GameSample.git
+## プロジェクトを導入する場合
 
-Unityでプロジェクトを開きます。
+### 動作環境
+UnrealEngine　3.5.2～
+
+### 導入方法
+- 次のコマンドでgit lfsを導入してからリポジトリをクローンします。
+git lfs install
+git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample.git
+
+- Unityでプロジェクトを開きます。
 この際、Unity起動時に「Enter Safe Mode?」というダイアログが出る場合は「Ignore」を押します。
 
-別途Starter Assets - ThirdPersonを導入する必要があります。次の方法で導入します。
-Unity Asset StoreからStarter Assets - ThirdPersonを開き、Add to My Assetsボタンを押します。
-この際、Unityアカウントへのログインが必要となります。
-Unityエディタのメニューバーから Window → Package Manager をクリックします。
-Package Managerウィンドウ左上のドロップダウンメニューからMy Assetsを選択し、Starter Assets - Third Person Character ControllerをクリックしてInstallまたはDownloadボタンを押します。
-ボタンがImportに変化するのでそれをクリックし、表示されるImport Unity PackageウィンドウのImportボタンを押します
+- 別途Starter Assets - ThirdPersonを導入する必要があります。次の方法で導入します。
+  - Unity Asset StoreからStarter Assets - ThirdPersonを開き、`Add to My Assets`ボタンを押します。
+  - この際、Unityアカウントへのログインが必要となります。
+  - Unityエディタのメニューバーから Window → Package Manager をクリックします。
+  - Package Managerウィンドウ左上のドロップダウンメニューから'My Assets'を選択し、`Starter Assets - Third Person Character Controller`をクリックして`Install`または`Download`ボタンを押します。
+  - ボタンがImportに変化するのでそれをクリックし、表示される`Import Unity Package`ウィンドウの`Import`ボタンを押します
 
-シーンファイル Assets/Scenes/GameSample.unityを開いてPlayすることで実行できます。
+シーンファイル `Assets/Scenes/GameSample.unity`を開いてPlayすることで実行できます。
 
 ## ライセンス
 ライセンスは[LICENSE.md](/LICENSE.md)を参照してください。
