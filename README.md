@@ -1,34 +1,49 @@
 # PLATEAU-SDK-for-Unreal-GameSample
-![image](https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample/assets/96822472/98b03623-1861-43d8-ab45-3c286eb01eca)
 
-このリポジトリでは、[PLATEAU SDK for Unreal](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unreal)を利用すると実際にどのようなアプリケーションが作れるかについて知るためのサンプルプロジェクトを公開しています。
-
-[PLATEAU SDK for Unity](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unity)向けサンプルプロジェクトは[こちら](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unity-Samples)です。
-
-## はじめに
-PLATEAU公式サイトで[PLATEAU SDK for Unrealのチュートリアル](https://www.mlit.go.jp/plateau/learning/tpc17-2/)を公開しています。
-SDKの導入方法、機能の説明、サンプルプロジェクトの内容等について解説していますので、初めてSDKやサンプルプロジェクトを触る方はまずはこちらをご覧ください。
-
-## 動作環境
-- Unreal Engine 5.3.2
-
-## GameSample
-属性情報の取得方法、及び活用方法について知るためのチュートリアルとして、ゲームサンプルアプリを提供しています。ゲームサンプルアプリでは、制限時間内にロボットに襲われている生存者を救出するゲームとなっています。また、プレイヤーは走るだけでなく、ロボットの足止めをすることが出来ます。ゲームサンプルアプリは、サンプルプロジェクトに含まれるContent/PlateauGameSample/MainMap.umapを開き、Playすることで実行できます。
+![image](https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample/assets/118872701/eff479a6-c1d7-4f5c-b27b-6f87664238a1)
 
 
-## ゲームサンプルアプリのみをインストール
-ゲームサンプルアプリのみを使用したい場合は、[Releaseページ](https://github.com/Synesthesias/PLATEAU-SDK-for-Unity-GameSample/releases/tag/v1.0.0)からダウンロードして、zipファイルを展開してください。
+# 概要
+[PLATEAU SDK for Unreal](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unreal)のサンプルとして提供しているゲームアプリです。
 
-## gitからの導入
-git lfs の導入が必要であることに注意してください。
+## ゲームルール
+- 制限時間内にロボットに襲われている要救助者を救出するゲームです。
+- 敵を避けながら要救助者と接触し、なるべく多くの人数をゴールに連れて行き救助することを目指します。
+- ゴールの場所は紙飛行機を取得すると明らかになります。
+- 敵は街を歩き回りますが、プレイヤーを見つけると襲ってきます。敵に触れるとゲームオーバーです。
+- 要救助者も街を歩き回りますが、プレイヤーと接触すると同行者として付いてくるようになります。
+- 同行者がいる状態でゴールとなる建物に接触すると救助となります。
+
+操作方法はタイトルメニューの「遊び方」から閲覧できます。
+
+# 導入方法
+サンプルゲームを遊んでみたい場合は下記の「ビルドアプリを入手したい場合」をご覧ください。  
+Unityでプロジェクトを開きたい場合は下記の「プロジェクトを導入したい場合」をご覧ください。
+
+## ビルドアプリを入手する場合
+Windows向けのビルドアプリが[Releaseページ](https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample/releases/tag/release)にあります。zipファイルをダウンロードして展開してアプリを起動します。
+
+## プロジェクトを導入する場合
+
+### 動作環境
+UnrealEngine　3.5.2～
+
+### 導入方法
+- 次のコマンドでgit lfsを導入してからリポジトリをクローンします。
+
 ```
 git lfs install
 git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample.git
 ```
+
+
+シーンファイル `Content/PlateauGameSample/MainMap.umap`を開いてPlayすることで実行できます。
+
 ## ライセンス
 ライセンスは[LICENSE.md](/LICENSE.md)を参照してください。
 
 ## 注意事項
 - 本リポジトリの内容は予告なく変更・削除する可能性があります。
 - 本リポジトリの利用により生じた損失及び損害等について、国土交通省はいかなる責任も負わないものとします
+
 
