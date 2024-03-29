@@ -18,7 +18,7 @@
 
 # 導入方法
 サンプルゲームを遊んでみたい場合は下記の「ビルドアプリを入手したい場合」をご覧ください。  
-Unityでプロジェクトを開きたい場合は下記の「プロジェクトを導入したい場合」をご覧ください。
+Unreal Engineでプロジェクトを開きたい場合は下記の「プロジェクトを導入したい場合」をご覧ください。
 
 ## ビルドアプリを入手する場合
 Windows向けのビルドアプリが[Releaseページ](https://github.com/Project-PLATEAU/PLATEAU-SDK-for-Unreal-GameSample/releases)にあります。zipファイルをダウンロードして展開してアプリを起動します。
@@ -26,7 +26,7 @@ Windows向けのビルドアプリが[Releaseページ](https://github.com/Proje
 ## プロジェクトを導入する場合
 
 ### 動作環境
-UnrealEngine　3.5.2～
+UnrealEngine 3.5.2～
 
 ### 導入方法
 - 次のコマンドでgit lfsを導入してからリポジトリをクローンします。
