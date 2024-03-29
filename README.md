@@ -17,7 +17,7 @@
 操作方法はタイトルメニューの「遊び方」から閲覧できます。
 
 # 導入方法
-サンプルゲームを遊んでみたい場合は下記の「ビルドアプリを入手したい場合」をご覧ください。
+サンプルゲームを遊んでみたい場合は下記の「ビルドアプリを入手したい場合」をご覧ください。  
 Unityでプロジェクトを開きたい場合は下記の「プロジェクトを導入したい場合」をご覧ください。
 
 ## ビルドアプリを入手する場合
@@ -32,7 +32,8 @@ UnrealEngine　3.5.2～
 - 次のコマンドでgit lfsを導入してからリポジトリをクローンします。
 
 ```
-git lfs install git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample.git
+git lfs install
+git clone https://github.com/Synesthesias/PLATEAU-SDK-for-Unreal-GameSample.git
 ```
 
 
